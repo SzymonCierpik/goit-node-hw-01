@@ -7,7 +7,7 @@ const {
   addContact,
 } = require("./contacts");
 
-// // Funkcja invokeAction wykonuje procesy na podstawie dostarczonych argumentów.
+// Funkcja invokeAction wykonuje procesy na podstawie dostarczonych argumentów.
 // Procesy te są realizowane w oparciu o wartość argumentu action.
 
 // - "list": Pobiera wszystkie kontakty za pomocą funkcji listContacts i wyświetla je w konsoli.
