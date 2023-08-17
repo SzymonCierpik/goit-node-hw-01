@@ -7,7 +7,7 @@ const {
   addContact,
 } = require("./contacts");
 
-// // Funkcja invokeAction, która wykonuje procesy na podstawie dostarczonych argumentów wiersza poleceń.
+// // Funkcja invokeAction wykonuje procesy na podstawie dostarczonych argumentów.
 // Procesy te są realizowane w oparciu o wartość argumentu action.
 
 // - "list": Pobiera wszystkie kontakty za pomocą funkcji listContacts i wyświetla je w konsoli.
@@ -39,7 +39,7 @@ async function invokeAction({ action, id, name, email, phone }) {
   }
 }
 
-// contactsArraytworzy tablicę contactsArray zawierającą argumenty wiersza poleceń po usunięciu pierwszego argumentu (hideBin).
+// contactsArray tworzy tablicę contactsArray zawierającą argumenty wiersza poleceń po usunięciu pierwszego argumentu (hideBin).
 // W tym miejscu dokonuje się przetworzenia tablicy contactsArray i utworzenie obiektu argv.
 // Obiekt ten zawiera przetworzone argumenty w formie kluczy i wartości.
 

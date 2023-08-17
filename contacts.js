@@ -23,7 +23,8 @@ async function getContactById(contactId) {
 }
 
 // Funkcja removeContact pozwala na usunięcie kontaktu o określonym ID.
-// Jeśli kontakt zostanie znaleziony i usunięty, zostaje on zwrócony jako wynik.W przeciwnym razie zwracane jest „null”.
+// Jeśli kontakt zostanie znaleziony i usunięty, zostaje on zwrócony jako wynik.
+// W przeciwnym razie zwracane jest „null”.
 // Cała operacja działa asynchronicznie.
 
 async function removeContact(contactId) {
@@ -41,7 +42,7 @@ async function removeContact(contactId) {
 
 // Funkcja addContact pozwala na dodawanie nowych kontaktów do listy kontaktów.
 // Nowy kontakt jest tworzony, dodawany do listy, a następnie lista jest zaktualizowana w pliku.
-// Nowo dodany kontakt jest zwracany jako wynik funkcji.Operacja ta działa asynchronicznie.
+// Nowo dodany kontakt jest zwracany jako wynik funkcji. Operacja ta działa asynchronicznie.
 
 async function addContact(name, email, phone) {
   const contactsArr = await listContacts();
