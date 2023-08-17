@@ -13,7 +13,7 @@ async function listContacts() {
 }
 
 // Funkcja getContactById wykorzystuje wcześniej zdefiniowaną funkcję listContacts() do odczytania listy kontaktów,
-// a następnie poszukuje w tej liście kontaktu o określonym ID. // Zwraca znaleziony kontakt w przeciwnym wypadku „null”.
+// a następnie poszukuje w tej liście kontaktu o określonym ID. Zwraca znaleziony kontakt w przeciwnym wypadku „null”.
 // Cała operacja odbywa się asynchronicznie.
 
 async function getContactById(contactId) {
